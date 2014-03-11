@@ -1,0 +1,19 @@
+{
+  "name": "Fries Example",
+  "description": "Android look and feel UI toolkit.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["storage", "webview"],
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js",
+        "index.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "128": "icon-128.png"
+  }
+}
